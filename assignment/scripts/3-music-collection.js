@@ -26,6 +26,25 @@ addToCollection(myCollection, 'One-X', 'Three Days Grace', 2006)
 addToCollection(myCollection, 'To Pimp a Butterfly', 'Kendrick Lamar', 2015)
 console.log(myCollection);
 
+function showCollection(collection) {
+for(const album of collection){
+  console.log(`${album.title}, by ${album.artist} published in ${album.yearPublished}`);
+  
+}  
+}
+
+  
+
+  
+  
+
+
+
+
+  
+
+  
+
 
 
 
