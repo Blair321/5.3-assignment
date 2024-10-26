@@ -20,7 +20,12 @@ function addToCollection(collection, title, artist, yearPublished) {
 let myCollection = []
 addToCollection(myCollection, 'Death of a Bachelor', 'Panic at the Disco', 2016);
 addToCollection(myCollection, 'Beerbongs and Bentleys', 'Post Malone', 2018);
-addToCollection(myCollection, )
+addToCollection(myCollection, 'The Thrill of it all', 'Sam Smith', 2017)
+addToCollection(myCollection, 'Nevermind', 'Nirvana', 1991)
+addToCollection(myCollection, 'One-X', 'Three Days Grace', 2006)
+addToCollection(myCollection, 'To Pimp a Butterfly', 'Kendrick Lamar', 2015)
+console.log(myCollection);
+
 
 
 
