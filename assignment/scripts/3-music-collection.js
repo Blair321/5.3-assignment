@@ -32,14 +32,24 @@ for(const album of collection){
   
 }  
 }
-showCollection(myCollection)
 
 
 
 function findByArtist(collection,artist) {
-  
+ let matchingArtistWithAlbum = []
+  for (let i = 0; i < collection.length; i++) {
+    if (collection[i].artist === artist) 
+    {matchingArtistWithAlbum.push(collection[i])}
+
+    
+  }
+  return matchingArtistWithAlbum;
+
+
 }
 
+console.log(findByArtist(myCollection,'Post Malone'));
+console.log(findByArtist(myCollection,'Stevie Wonder'));
 
 
   
