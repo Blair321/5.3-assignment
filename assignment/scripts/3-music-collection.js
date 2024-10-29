@@ -9,12 +9,9 @@ function addToCollection(collection, title, artist, yearPublished) {
     artist:artist,
     yearPublished:yearPublished
   }
-  myCollection.push(album);
+  {collection.push(album);}
 
-  collection.push(album);
-  
-  
-  return album ;
+{return album;}
 }
 
 let myCollection = []
