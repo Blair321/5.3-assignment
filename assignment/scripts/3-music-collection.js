@@ -29,7 +29,7 @@ for(const album of collection){
   
 }  
 }
-
+showCollection(myCollection);
 
 
 function findByArtist(collection,artist) {
